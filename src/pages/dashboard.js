@@ -87,7 +87,16 @@ const Dashboard = () => {
     }}
   >
     {copiedShortURL === shortURL.short_url ? 'Copied' : 'Copy'}
-  </button> 
+  </button>
+  <button
+  className="mr-2 px-4 py-2 rounded bg-orange-500 text-white"
+  onClick={() => {
+    window.location.href = '/' + shortURL.short_url;
+  }}
+>
+  ไปที่ลิ้ง
+</button>
+
   <span className="ml-2">{new Date(shortURL.created_at).toLocaleDateString()}</span>
 </div>
 
