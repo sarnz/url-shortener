@@ -1,3 +1,5 @@
-# Release Instructions
+วิธีการติดตั้ง
+npm install
 
-Releases are done by @taylorotwell for this repository.
+วิธีรันโปรเจค
+npm run dev
